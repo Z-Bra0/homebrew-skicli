@@ -1,21 +1,21 @@
 class Skicli < Formula
   desc "Package manager for AI agent skills"
   homepage "https://github.com/Z-Bra0/Ski"
-  version "0.3.0"
+  version "0.3.1"
   license "GPL-3.0-only"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/Z-Bra0/Ski/releases/download/v0.3.0/ski_0.3.0_darwin_arm64.tar.gz"
-    sha256 "0e6415e0ac982f3eb0e9cbe74609734cccdf7598f77fb6925a2e9faf8020b609"
+    url "https://github.com/Z-Bra0/Ski/releases/download/v0.3.1/ski_0.3.1_darwin_arm64.tar.gz"
+    sha256 "296fd3952b1e91d93b513427705fa2c91f9a53ee5dc47b14552437c81f7fa937"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/Z-Bra0/Ski/releases/download/v0.3.0/ski_0.3.0_darwin_amd64.tar.gz"
-    sha256 "0718f641fc0ed7488ff26718ad62a8617b2331d09335ebc877c67f57e54cefe6"
+    url "https://github.com/Z-Bra0/Ski/releases/download/v0.3.1/ski_0.3.1_darwin_amd64.tar.gz"
+    sha256 "aff8fd1693b6045271d413a60e2e697be000c7db21cdd7ba11b3fd4fdd2e544e"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/Z-Bra0/Ski/releases/download/v0.3.0/ski_0.3.0_linux_arm64.tar.gz"
-    sha256 "8a0e1f7076585deb7a1cf90f3945034b103432f29b775364fa5ee2e9411ec95e"
+    url "https://github.com/Z-Bra0/Ski/releases/download/v0.3.1/ski_0.3.1_linux_arm64.tar.gz"
+    sha256 "5324fdb8c02350f3dbda283ce9315491f93bafac6004f7c356077f0e1efe5a48"
   else
-    url "https://github.com/Z-Bra0/Ski/releases/download/v0.3.0/ski_0.3.0_linux_amd64.tar.gz"
-    sha256 "e432b9fee09cac88b6b561f0f9ed4f0018c06f510b0525b280a57580cd57bd1d"
+    url "https://github.com/Z-Bra0/Ski/releases/download/v0.3.1/ski_0.3.1_linux_amd64.tar.gz"
+    sha256 "c4b75df5c93fab0641531ff0e7bdffbbc30929e80d5e0609dea04c6d71fe6855"
   end
 
   def install
